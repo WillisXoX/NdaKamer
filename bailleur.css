@@ -1,0 +1,388 @@
+/*Bailleur*/
+.contain {
+  padding: 8em 0;
+  height: auto;
+}
+.contain-details{
+  height: auto;
+  padding: 1em 2em;
+  margin: auto;
+}
+.detail-container{
+  background-color: #FFFFFF;
+}
+.main-block.ajouter, .main-block.signUp {
+  background-image: url(img/006.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-block.bailleur {
+  background-image: url(img/006.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500vh;
+}
+.main-block.bailleurVide {
+  background-image: url(img/006.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200vh;
+}
+.main-block.logement{
+  background-image: url(img/006.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Room Bloack*/
+.room-block {
+  padding: 2em;
+  //background-color: #CAAB95;
+  //background-image: url(img/bckgForm3.jpg);
+  background-image: url(img/bkForm4k4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.2em;
+  width: 70%;
+  margin: auto;
+}
+.room-title {
+  margin: 0 3.5em;
+  padding: 1em 0;
+}
+.room-title h1 {
+  color: #FF9100;
+}
+.room-title p{
+  color: #FFFFFF;
+}
+.form-block {
+  width: 100%;
+}
+.form__input {
+  color: #000000;
+}
+.form.roomDescription {
+  width: 85%;
+}
+.form__div.roomDescription {
+  height: 100px;
+}
+.form__input.roomDescription:not(:placeholder-shown).form__input:not(:focus)+ .form__label {
+  color: var(--first-color);
+}
+
+/*New image*/
+.image-btn{
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin-bottom: 1em;
+}
+.center {
+  height: 100%;
+  width: 100%;
+  padding: 0 3em;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.center.plan{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.form-image {
+  width:350px;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  margin: .25em;
+  padding: 10px;
+
+}
+.form-plan{
+  width: 500px;
+}
+.form-image input {
+  display:none;
+}
+.form-image label, .add, .delete {
+  display:block;
+  width:65%;
+  height:45px;
+  margin-left: 15%;
+  line-height:50px;
+  text-align:center;
+  background:var(--first-color);
+  color:#fff;
+  font-size: 13px;
+  font-family: Righteous;
+  letter-spacing: 2px;
+  text-transform:Uppercase;
+  border-radius: 3px;
+  cursor:pointer;
+}
+.add, .delete{
+  width: 200px;
+  font-size: 15px;
+  border: none;
+}
+.add{
+  background-color: #3bf73b;
+}
+.delete{
+  background-color: #EE4B2B;
+  display: none;
+}
+.form-image img, .form-image video {
+  display: none;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom:30px;
+}
+.video-block{
+  width: 100%;
+  padding: 0 2em;
+}
+.form-image video{
+  display: block;
+}
+.form-image.video{
+  width: 100%;
+}
+/*
+.containerImage .wrapper{
+  position: relative;
+  height: 300px;
+  margin: .5em 0;
+  border-radius: 10px;
+  background: #fff;
+  border: 2px dashed #c2cdda;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.wrapper.active{
+  border: none;
+}
+.wrapper .image{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.wrapper .icon{
+  font-size: 100px;
+  color: #1A73E8;
+}
+.wrapper .text{
+  font-size: 20px;
+  font-weight: 500;
+  color: #5B5B7B;
+}
+.wrapper #cancel-btn i, .wrapper .cancel-btn i{
+  position: absolute;
+  font-size: 20px;
+  right: 15px;
+  top: 15px;
+  color: #9658fe;
+  cursor: pointer;
+  display: none;
+}
+.wrapper.active:hover #cancel-btn i,.wrapper.active:hover .cancel-btn i{
+  display: block;
+}
+.wrapper #cancel-btn i:hover,.wrapper .cancel-btn i:hover{
+  color: #e74c3c;
+}
+.wrapper .file-name{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 8px 0;
+  font-size: 18px;
+  color: #fff;
+  display: none;
+  background: #1A73E8;
+}
+.wrapper.active:hover .file-name{
+  display: block;
+}
+.containerImage #custom-btn, .containerImage .custom-btn{
+  margin-top: 30px;
+  display: block;
+  width: 70%;
+  margin: .5em auto;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: .5em;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #1A73E8;
+  font-family: Righteous;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+/*Room btn*/
+.roomSubmit-block {
+  display: flex;
+  justify-content: center;
+}
+.room-btn {
+  width: 95%;
+  height: 50px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 1em;
+  font-family: Righteous;
+  cursor: pointer;
+}
+.room-btn:hover{
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}
+
+/*Chamber Block*/
+.chamber-block{
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+  padding: 0 2em;
+
+}
+.chamber{
+  width: 30%;
+  background-color: #FFFFFF;
+  margin: 0 1.25em;
+  border-radius: .5em;
+  box-shadow: 0px 2px 2px .25px #aaa;
+  margin-bottom: 1em;
+}
+.chamber:hover{
+  transform: scale(1.025);
+  transition: 0.1s ease-in;
+}
+.chamber-image{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-top-right-radius: .5em;
+  border-top-left-radius: .5em;
+}
+.chamber-container{
+  display: flex;
+  justify-content: space-between;
+  padding: .5em 2em;
+}
+.chamber-container h2{
+  font-size: 1.6rem;
+}
+.chamber-sub{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.chamber-sub p{
+  color: #FF9100;
+  font-size: 15px;
+  font-weight: 400;
+}
+.room-location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: .5em 2em;
+}
+.room-location p{
+  font-size: 14px;
+}
+.roomCategorie{
+  text-transform: uppercase;
+  color: #FF9100;
+  letter-spacing: 1px;
+  margin-left: 4px;
+  font-weight: 400;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.roomLocation {
+  text-transform: uppercase;
+  color: #FF9100;
+  margin-left: 4px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.chamber-container h2{
+  color: #FF9100;
+  letter-spacing: 1px;
+}
+.room-description {
+  padding: 0 2em;
+  height: 60px;
+  overflow: hidden;
+}
+.room-description p{
+  font-size: 15px;
+}
+.room-description p::first-letter{
+  text-transform: capitalize;
+  margin-left: 15px;
+}
+.room-btn-block{
+  display: flex;
+  justify-content: flex-end;
+}
+.room-button{
+  margin: .5em 2em;
+  background-color: #FF9100;
+  letter-spacing: 2px;
+  padding: 1em 2em;
+  border-radius: .25em;
+  border: none;
+  font-family: Righteous;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+/*Details page*/
+.chamberInfo{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.chamberInfo-container h3{
+  color: #FF9100;
+  font-size: 2rem;
+}
+.slideSubHeader{
+  color: #FF9100;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0 1em;
+}
+.slideSubHeader p{
+  margin-left: -1em;
+}

@@ -1,0 +1,75 @@
+.profil-container{
+  width: 900px;
+  padding: 2em 0;
+  //background-color: #E8D3AE;
+  background-image: url(img/bkForm4k4.jpg);
+  //background-size: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  border-radius: 15px;
+}
+.profil-header h1{
+  color: #FFFFFF;
+  text-align: center;
+  //color: #FF9100;
+  margin: .5em 0;
+}
+.profil-info{
+  margin: .7em 0;
+  margin-left: 7em;
+}
+.profil-info h2{
+  color: #FF9100;
+}
+.profil-info p {
+  color: #FFFFFF;
+}
+.profil-container h4{
+  color: #FF9100;
+  margin-left: 7em;
+  text-decoration: uppercase;
+  letter-spacing: .1em;
+}
+.formDescription .profil-info{
+  margin-left: -0em;
+}
+.form-user.group{
+  margin: 0 1em;
+}
+.formDescription .group{
+  color: #FFFFFF;
+  margin: 0 1em;
+}
+.formDescription h4{
+  color: #FF9100;
+  margin: .5em 0;
+  letter-spacing: .1em;
+  font-weight: 600;
+}
+input[type="checkbox"]{
+  transform: scale(1.5);
+  padding: 10px;
+  border: none;
+  background: #FFFFFF;
+}
+.choice-group{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+.choice-group label{
+  padding: 0 .2em;
+}
+.input-text h4{
+  color: #ffff;
+  margin-left: 6em;
+  letter-spacing: .1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.input-text{
+  margin: 0 1em;
+}
